@@ -5,6 +5,8 @@ router.get('/', function(req, res, next) {
     res.render('Weather', { title: 'Weather Search' });
 });
 
+//TODO: Garrett fixes this part:
+
 // document.getElementById('weatherForm').addEventListener('submit', function(event) {
 //     event.preventDefault();
 //     const location = document.getElementById('locationInput').value;
